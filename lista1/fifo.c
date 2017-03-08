@@ -30,7 +30,7 @@ int getSize(fifo *queue){
 }
 
 int isEmpty(fifo *queue){
-  return (queue->size == 0 ? 1 : 0);
+  return queue->size == 0);
 }
 
 void printQueue(fifo *queue){
