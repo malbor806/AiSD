@@ -182,8 +182,6 @@ void searchElementByValue(list *list, int value){
 
 void addRandomElementsToList(list *list, int numberOfElements){
   int i;
-  int t = time(NULL);
-  srand(t);
   for(i = 1; i <= numberOfElements; i++){
     addToListValueOnIndex(list, rand()%100, i);
   }
@@ -211,6 +209,7 @@ void checkTime(list *list, int index){
 int main(){
   list *l1 = createNewList();
   int n1 = 1000;
+  srand(time(0));
   addRandomElementsToList(l1,n1);
   list *l2 = createNewList();
   addRandomElementsToList(l2,n1);
