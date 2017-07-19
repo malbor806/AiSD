@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="1.8">
+      <module name="aisd" target="1.8" />
+      <module name="aisd_main" target="1.5" />
+      <module name="aisd_test" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
